@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
             string=in.getText().toString();
 
             if (spbHappyTicket.isHappyTicket(string))
-            {out.setText("Билет счастливый" + spbHappyTicket.nextHappyTicket(string));}
+            {out.setText("Билет счастливый: " + spbHappyTicket.nextHappyTicket(string));}
             else  {out.setText("Билет не счастливый. Следующий счастливый: "+ spbHappyTicket.nextHappyTicket(string));}
         }
     };
